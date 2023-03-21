@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados Solicitados</title>
+    <style> 
+    .full{
+        width: 50%; 
+        height: 30px;
+        }</style>
+    
+</head>
+<body>
+    <h3>Solicito os Dados Obrigátorios</h3>
+
+    <div> 
+    <label>Nome</label>
+    <input type="text" name="nome" required> 
+    </div>
+    <br>
+    <div> 
+        <label>Coloque seu Telefone</label>
+        <input type="text" id="numero" required placeholder="(XX)XXXXX-XXXX">
+    </div>
+    <br>
+
+    <div>
+    <label>Email </label>
+    <input type="text" name="email" required> 
+    </div>
+    <br>
+    <div> 
+        <label> Motivos do seu Contato</label>
+        <br><br>
+
+        <input type="checkbox" name="Lentidão" value="Lentidão">Lentidão<br>
+    <input type="checkbox" name="Erro" value="Erro">Erro<br>
+    <input type="checkbox" name="Shutdown" value="Shutdown">Shutdown<br>
+    <input type="checkbox" name="Outros Assuntos" value="Outros Assuntos">Outros Assuntos<br>
+    </div>
+    <br>
+
+    <div> 
+        <textarea class="full altura" id="comentarios" name="comentarios">Comentários Gerais ...
+        </textarea>
+    </div>
+        <br>
+    <div> 
+        <a href="./index.html"><input type="submit" value="Voltar para Pagina HOME"></a>
+    </div>
+    <br> 
+   
+    
+</body>
+</html>
